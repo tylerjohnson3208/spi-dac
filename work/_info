@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/tyler/Downloads/FinalC2P2
+Espi_dac
+Z0 w1599251501
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/tyler/workspace/spi-dac
+Z4 8C:\Users\tyler\workspace\spi-dac\spi_dac.vhd
+Z5 FC:\Users\tyler\workspace\spi-dac\spi_dac.vhd
+l0
+L20
+VmKRABfMhRoT7]9gijgB>N3
+!s100 ?CC;I`=G_nDkcAoGYfjic3
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1599255417
+!i10b 1
+Z8 !s108 1599255417.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\tyler\workspace\spi-dac\spi_dac.vhd|
+Z10 !s107 C:\Users\tyler\workspace\spi-dac\spi_dac.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Artl
+R1
+R2
+Z13 DEx4 work 7 spi_dac 0 22 mKRABfMhRoT7]9gijgB>N3
+l35
+L34
+Z14 VMYNfm;46`:;;^T0O9ECWj1
+Z15 !s100 :<M_z^DQTc>^foIfE72@22
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Espi_dac_tb
+Z16 w1599255401
+R1
+R2
+R3
+Z17 8C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
+Z18 FC:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
+l0
+L17
+VN18JTb[@8N7@5@lUJ0ER01
+!s100 P<YDdoe:WDl1DQ:h8YHOL3
+R6
+32
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd|
+Z20 !s107 C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 10 spi_dac_tb 0 22 N18JTb[@8N7@5@lUJ0ER01
+l49
+L24
+V=CZHREScmZb_9J<lP]>R]2
+!s100 4aaN]lLQ`4gK9:z3PCSXh1
+R6
+32
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11
+R12
