@@ -1,0 +1,9 @@
+C:/Users/tyler/workspace/spi-dac/spi_dac.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\tyler\workspace\spi-dac\spi_dac.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity spi_dac
+-- Compiling architecture RTL of spi_dac
+
+} {} {}}
