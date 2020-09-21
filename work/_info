@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/tyler/Downloads/FinalC2P2
 Espi_dac
-Z0 w1599251501
+Z0 w1600650910
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/Users/tyler/workspace/spi-dac
@@ -17,13 +17,13 @@ Z4 8C:\Users\tyler\workspace\spi-dac\spi_dac.vhd
 Z5 FC:\Users\tyler\workspace\spi-dac\spi_dac.vhd
 l0
 L20
-VmKRABfMhRoT7]9gijgB>N3
-!s100 ?CC;I`=G_nDkcAoGYfjic3
+Vk=Ck`gL3KG3R1iWgZWOAP0
+!s100 3^zd=X;>Ui]D55LOhA_<@3
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1599255417
+Z7 !s110 1600651123
 !i10b 1
-Z8 !s108 1599255417.000000
+Z8 !s108 1600651123.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\tyler\workspace\spi-dac\spi_dac.vhd|
 Z10 !s107 C:\Users\tyler\workspace\spi-dac\spi_dac.vhd|
 !i113 1
@@ -32,11 +32,11 @@ Z12 tExplicit 1
 Artl
 R1
 R2
-Z13 DEx4 work 7 spi_dac 0 22 mKRABfMhRoT7]9gijgB>N3
-l35
-L34
-Z14 VMYNfm;46`:;;^T0O9ECWj1
-Z15 !s100 :<M_z^DQTc>^foIfE72@22
+DEx4 work 7 spi_dac 0 22 k=Ck`gL3KG3R1iWgZWOAP0
+l37
+L35
+VeKfcWY15Hf6NVhaeCBZ9>2
+!s100 EYePPZn2k1AOef_KR9G3E0
 R6
 32
 R7
@@ -48,39 +48,41 @@ R10
 R11
 R12
 Espi_dac_tb
-Z16 w1599255401
+Z13 w1600651344
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z17 8C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
-Z18 FC:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
+Z15 8C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
+Z16 FC:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd
 l0
-L17
-VN18JTb[@8N7@5@lUJ0ER01
-!s100 P<YDdoe:WDl1DQ:h8YHOL3
+L14
+V<g?S3EFjK`fgH89<FcPCk1
+!s100 ?<c[P9F05D9KgeZ42H3Ti1
 R6
 32
-R7
+Z17 !s110 1600651347
 !i10b 1
-R8
+Z18 !s108 1600651347.000000
 Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd|
 Z20 !s107 C:\Users\tyler\workspace\spi-dac\spi_dac_tb.vhd|
 !i113 1
 R11
 R12
 Abehavioral
+R14
 R1
 R2
-DEx4 work 10 spi_dac_tb 0 22 N18JTb[@8N7@5@lUJ0ER01
-l49
-L24
-V=CZHREScmZb_9J<lP]>R]2
-!s100 4aaN]lLQ`4gK9:z3PCSXh1
+Z21 DEx4 work 10 spi_dac_tb 0 22 <g?S3EFjK`fgH89<FcPCk1
+l45
+L21
+VP6aR;3`TMSVGaaM8h5zRF3
+!s100 Q;lJdRJV:cjQYOChQen=c2
 R6
 32
-R7
+R17
 !i10b 1
-R8
+R18
 R19
 R20
 !i113 1

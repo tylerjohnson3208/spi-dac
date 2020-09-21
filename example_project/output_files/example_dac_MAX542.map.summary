@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Sep 20 18:09:55 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : example_dac_MAX542
+Top-level Entity Name : example_dac_MAX542_top
+Family : Cyclone II
+Total logic elements : 71
+    Total combinational functions : 55
+    Dedicated logic registers : 51
+Total registers : 51
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

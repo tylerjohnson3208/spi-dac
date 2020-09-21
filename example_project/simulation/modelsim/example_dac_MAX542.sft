@@ -1,0 +1,5 @@
+set tool_name "ModelSim (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {example_dac_MAX542.vho example_dac_MAX542_vhd.sdo}}
+	{{"Fast Model"} {example_dac_MAX542_fast.vho example_dac_MAX542_vhd_fast.sdo}}
+}

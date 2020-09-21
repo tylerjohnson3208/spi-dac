@@ -7,7 +7,8 @@
 ------------------------------------------------------------------------------
 
 library ieee;                                
-use ieee.std_logic_1164.all;                 
+use ieee.std_logic_1164.all;          
+use ieee.numeric_std.all;       
 use work.all;
 
 entity spi_dac_tb is
@@ -48,7 +49,7 @@ begin
 -- spi_dac
 spi_dac_test : spi_dac
     port map( 
-		--Inputs
+	--Inputs
         sclk => sclk_tb,
         cs => cs_tb,
         din => din_tb,
@@ -84,24 +85,26 @@ begin
     for I in 0 to nbits-1 loop
         wait for period/2; -- compare in the middle of period
         sample <= '1';
-        assert dout_tb = din_tb(nbits-1-I) report "Mismatched output zeros" severity error;
+        assert dout_tb = din_tb(nbits-1-I) report "Mismatched output on bit " & integer'image(I) severity error;
         wait for period/2;
         sample <= '0';
     end loop;
-    wait for nbits*period;
     cs_tb <= '1'; -- DAC updates
     wait for period;
-    cs_tb <= '0';
-    din_tb <= ('1', '0', '1', '1', '0', others => '1');
-    for I in 0 to nbits-1 loop
-        wait for period/2; -- compare in the middle of period
-        sample <= '1';
-        assert dout_tb = din_tb(nbits-1-I) report "Mismatched output" severity error;
-        wait for period/2;
-        sample <= '0';
+    for J in 0 to 2**nbits-1 loop
+        din_tb <= std_logic_vector(to_unsigned(J, din_tb'length));
+        cs_tb <= '0';
+        for I in 0 to nbits-1 loop
+            wait for period/2; -- compare in the middle of period
+            sample <= '1';
+            assert dout_tb = din_tb(nbits-1-I) report "Mismatched output on bit " & integer'image(nbits-1-I) severity error;
+            wait for period/2;
+            sample <= '0';
+        end loop;     
+        cs_tb <= '1'; -- DAC updates
+        wait for period;
     end loop;
-     
-    cs_tb <= '1'; -- DAC updates
+
     wait for period;
 
     report "This simulation is complete" ;                 

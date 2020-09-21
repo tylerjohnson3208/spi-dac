@@ -1,0 +1,54 @@
+|example_dac_MAX542_top
+sclk_top => sig_sclk_out.CLK
+sclk_top => sclk_out_top~reg0.CLK
+sclk_top => iclk[0].CLK
+sclk_top => iclk[1].CLK
+sclk_top => iclk[2].CLK
+sclk_top => iclk[3].CLK
+sclk_top => iclk[4].CLK
+sclk_top => iclk[5].CLK
+ldac_out_top <= spi_dac:spi_dac_test.ldac_out
+cs_out_top <= spi_dac:spi_dac_test.cs_out
+dout_top <= spi_dac:spi_dac_test.dout
+sclk_out_top <= sclk_out_top~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_1 <= led_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_2 <= led_2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_3 <= led_3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example_dac_MAX542_top|spi_dac:spi_dac_test
+sclk => idx[0].CLK
+sclk => idx[1].CLK
+sclk => idx[2].CLK
+sclk => idx[3].CLK
+cs => idx[0].PRESET
+cs => idx[1].PRESET
+cs => idx[2].PRESET
+cs => idx[3].PRESET
+cs => cs_out.DATAIN
+cs => idx[0].ENA
+cs => idx[1].ENA
+cs => idx[2].ENA
+cs => idx[3].ENA
+din[0] => Mux0.IN15
+din[1] => Mux0.IN14
+din[2] => Mux0.IN13
+din[3] => Mux0.IN12
+din[4] => Mux0.IN11
+din[5] => Mux0.IN10
+din[6] => Mux0.IN9
+din[7] => Mux0.IN8
+din[8] => Mux0.IN7
+din[9] => Mux0.IN6
+din[10] => Mux0.IN5
+din[11] => Mux0.IN4
+din[12] => Mux0.IN3
+din[13] => Mux0.IN2
+din[14] => Mux0.IN1
+din[15] => Mux0.IN0
+ldac_in => ldac_out.DATAIN
+ldac_out <= ldac_in.DB_MAX_OUTPUT_PORT_TYPE
+cs_out <= cs.DB_MAX_OUTPUT_PORT_TYPE
+dout <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
